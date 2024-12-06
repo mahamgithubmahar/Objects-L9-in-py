@@ -1,0 +1,10 @@
+class Robot:
+    def __init__(self, name, model):
+        self.name = name
+        self.model = model
+
+    def introduce(self):
+        print(f"Hi! I am {self.name}, model {self.model}.")
+
+ob1 = Robot("Robot", "zz")
+ob1.introduce()
